@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.main{
+    display: flex;
+    margin: 200px auto;
+    width: 800px;
+    min-height: 500px;
+   
+}
+
+.info{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    height: 500px;
+    text-align: center;
+}
+.info > img{
+    width: 50%;
+    height: 50%;
+    margin-bottom: -100%;
+}
+.saidbar{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 500px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.294);
+
+}
+
+.saidbar > input{
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 5%;
+    width: 80%;
+    font-size: 25px;
+    
+}
+.saidbar> a{
+    margin-top: 5px;
+    margin-left: 40%;
+}
+.chiziq{
+    margin: 3px auto;
+    background-color: lightgray;
+    width: 80%;
+    height: 1px;
+}
+.said-btn{
+    margin-left: 5%;
+    color: white;
+    background-color: rgb(72, 72, 248);
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    height: 18%;
+    font-size: 25px;
+}
+.said-btn1{
+    margin-left: 25%;
+    color: white;
+    background-color: rgb(71, 195, 59);
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 18%;
+    font-size: 20px;
+}
+@media(max-width:900px){
+    .main{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .info{
+        width: 100%;
+        height: 150px;
+    }
+    .saidbar{
+        width: 100%;
+    }
+    .info > img{
+        width: 50%;
+        height: 80%;
+        margin-top: -10%;
+    }
+}
