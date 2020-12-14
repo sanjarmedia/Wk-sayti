@@ -18,6 +18,9 @@ body{
     height: 500px;
     text-align: center;
 }
+.info > p {
+    font-size: 30px;
+}
 .info > img{
     width: 50%;
     height: 50%;
@@ -27,7 +30,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    height: 500px;
+    height: 400px;
     width: 40%;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -36,31 +39,33 @@ body{
 }
 
 .saidbar > input{
-    margin: 15px auto;
+    margin: 10px auto;
     border-radius: 5px;
-    padding: 5%;
+    padding: 1%;
     width: 80%;
-    font-size: 25px;
-    
+    font-size: 15px;
+    height: 10%;
+    margin-bottom: -35px;
 }
 .saidbar> a{
-    margin-top: 5px;
+    margin-top: -25px;
     margin-left: 40%;
 }
 .chiziq{
-    margin: 3px auto;
+    margin: -30px auto;
     background-color: lightgray;
     width: 80%;
     height: 1px;
 }
 .said-btn{
-    margin-left: 5%;
+    margin-top: 10px;
+    margin-left: 7.5%;
     color: white;
     background-color: rgb(72, 72, 248);
     border: none;
     border-radius: 10px;
-    width: 90%;
-    height: 18%;
+    width: 85%;
+    height: 12%;
     font-size: 25px;
 }
 .said-btn1{
@@ -70,7 +75,7 @@ body{
     border: none;
     border-radius: 10px;
     width: 50%;
-    height: 18%;
+    height: 12%;
     font-size: 20px;
 }
 @media(max-width:900px){
